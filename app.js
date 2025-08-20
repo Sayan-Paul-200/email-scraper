@@ -8,9 +8,9 @@ const fetch     = global.fetch || require('node-fetch');
 const puppeteer = require('puppeteer');
 
 // 1) New spreadsheet URLs
-const SHEET_EDIT_URL = 'https://docs.google.com/spreadsheets/d/1f28r6GNjveqWCr43VF4gvj-O4II_s0Wsyn-s1tu1xRI/edit?gid=1210573942#gid=1210573942';
+const SHEET_EDIT_URL = 'https://docs.google.com/spreadsheets/d/1xU0f6p24RBIfxQXAGXT0SDF1HG0urREDjYJKlJTy7WY/edit?gid=0#gid=0';
 const CSV_URL = SHEET_EDIT_URL
-  .replace(/\/edit.*$/, `/gviz/tq?tqx=out:csv&gid=1210573942`);
+  .replace(/\/edit.*$/, `/gviz/tq?tqx=out:csv&gid=0`);
 
 // Browser‑like UA
 const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
